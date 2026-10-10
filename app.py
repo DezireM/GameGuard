@@ -5,7 +5,6 @@ import sys
 import joblib
 import streamlit as st
 
-# Allow Python to import the server checker from src/
 ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT / "src"))
 
